@@ -10,7 +10,7 @@ public class progressDialogModel {
     public static void pdMenyiapkanDataLogin(Context context){
         progressDialog=new ProgressDialog(context, R.style.AppCompatAlertDialogStyle);
         progressDialog.setMessage("Memuat...");
-        progressDialog.show();
+        //progressDialog.show();
     }
 
     public static void hideProgressDialog(){
