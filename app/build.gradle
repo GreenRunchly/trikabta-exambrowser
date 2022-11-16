@@ -1,0 +1,36 @@
+apply plugin: 'com.android.application'
+
+android {
+    signingConfigs {
+        release {
+            storeFile file('E:\\GitProject\\exambrowser-trikabta-assets\\keystore\\keystore.jks')
+            storePassword 'Ilfanindo1878'
+            keyAlias 'rizki'
+            keyPassword 'Ilfanindo1878'
+        }
+    }
+    compileSdkVersion 31
+    defaultConfig {
+        applicationId "id.greenrunchly.exambrowser.trikabta"
+        minSdkVersion 21
+        targetSdkVersion 31
+        versionCode 1
+        versionName "1.0.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'com.android.support:appcompat-v7:28.0.0'
+    implementation 'com.android.support:design:28.0.0'
+    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.1'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
+}

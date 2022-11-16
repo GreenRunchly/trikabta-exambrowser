@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#d7d702</color>
+    <color name="colorPrimaryDark">#ff9e43</color>
+    <color name="colorAccent">#555555</color>
+    <color name="colorText">#555555</color>
+    <color name="colorPutih">#ffffff</color>
+    <color name="colorGradientAtas">#ff9e43</color>
+    <color name="colorGradientBawah">#d7d702</color>
+    <color name="colorTombol">#f6dfb3</color>
+    <color name="colorBackground">#f8f9fa</color>
+    <color name="warnaHijauMuda">#ddffbc</color>
+    <color name="warnaHijauTua">#91c788</color>
+    <color name="warnaKuning">#eef500</color>
+</resources>

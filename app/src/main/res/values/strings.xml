@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Ieu Ujian</string>
+    <string name="app_version">Versi 1.3.99</string>
+    <string name="btn_lanjutkan">Lanjutkan</string>
+    <string name="hint_name">Masukkan Alamat IP/Domain</string>
+    <string name="err_msg_name">Harap masukan alamat tanpa protocol.</string>
+    <string name="tentang">Tentang</string>
+    <string name="keluar">Keluar</string>
+    <string name="logo_ieuujian">Logo IeuUjian</string>
+</resources>
